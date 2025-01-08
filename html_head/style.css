@@ -4,3 +4,37 @@ body {
     background-repeat: no-repeat; /* Prevents tiling */
     background-position: center; /* Centers the image */
 }
+
+/* Reset margins and padding for consistent layout */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the <nav> and <ul> */
+nav {
+    background-color: #333; /* Placeholder color for nav background */
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex; /* Horizontal layout */
+    justify-content: space-around; /* Space out the menu items */
+    list-style-type: none; /* Remove bullet points */
+}
+
+/* Styling for links */
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Placeholder color for text */
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #555; /* Placeholder hover background color */
+    color: #fff; /* Placeholder hover text color */
+    transition: background-color 0.3s ease;
+}
