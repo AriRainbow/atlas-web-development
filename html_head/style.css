@@ -15,13 +15,15 @@ body, ul {
 
 /* General Nav Bar Styling */
 nav {
-    background-color: #dc464c; /* Navbar background color */
-    color: #becec8; /* Default font color */
-    padding: 1rem; /* Space inside the navbar */
-    display: flex; /* Flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between left and right sections */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-image: url('images/Nav_BG.png'); 
+    background-size: cover; /* Makes sure the image covers the navbar */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    height: 100px; /* Adjust height as needed */
+    display: flex; /* Makes it easier to position items */
+    align-items: center; /* Centers items vertically */
+    justify-content: space-between; /* Positions left and right sections */
+    padding: 0 1rem; /* Adds spacing on the left and right */
 }
 
 /* Ensure the nav-container uses Flexbox */
@@ -41,7 +43,10 @@ nav {
 .nav-left h1 {
     margin: 0; /* Removes extra margin around the title */
     font-size: 1.5rem; /* Adjust title size */
-    color: #becec8; /* Font color for the title */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: #fff; /* White text color */
+    padding: 0.5rem 1rem; /* Adds padding around the text */
+    border-radius: 5px; /* Rounds the edges */
 }
 
 /* Right Section: Menu Items */
@@ -54,14 +59,17 @@ nav {
 }
 
 .nav-right ul li {
-    margin: 0; /* Reset any default margins */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 0.5rem; /* Space between menu items */
 }
 
 .nav-right ul li a {
+    display: block; /* Makes the link fill the color block */
+    padding: 0.5rem 1rem; /* Space inside the color block */
     text-decoration: none; /* Removes underline */
-    color: #becec8; /* Link color */
-    font-weight: bold; /* Makes the text stand out */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    color: #000; /* Black text color */
+    font-weight: bold; /* Bold font */
 }
 
 .nav-right ul li a:hover {
