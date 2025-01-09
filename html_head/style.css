@@ -41,12 +41,13 @@ nav {
 
 /* Left Section: Page Title */
 .nav-left h1 {
-    margin: 0; /* Removes extra margin around the title */
-    font-size: 1.5rem; /* Adjust title size */
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
-    color: #fff; /* White text color */
-    padding: 0.5rem 1rem; /* Adds padding around the text */
-    border-radius: 5px; /* Rounds the edges */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    color: #000; /* Black */
+    padding: 1rem 2rem; /* Doubles the height with additional padding */
+    border-radius: 5px; /* rounded edges */
+    display: inline-block; /* Shrinks the block to fit the content */
+    font-size: 1.5rem; 
+    font-weight: bold; /* Make text bold */
 }
 
 /* Right Section: Menu Items */
@@ -62,16 +63,18 @@ nav {
     background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
     border-radius: 5px; /* Rounded corners */
     margin: 0 0.5rem; /* Space between menu items */
+    padding: 1rem 2rem; /* Matches the left section height */
 }
 
 .nav-right ul li a {
     display: block; /* Makes the link fill the color block */
-    padding: 0.5rem 1rem; /* Space inside the color block */
     text-decoration: none; /* Removes underline */
-    color: #000; /* Black text color */
+    color: #000; /* Black text */
+    font-size: 1rem; 
     font-weight: bold; /* Bold font */
+    text-align: center; /* Centers text inside the block */
 }
 
 .nav-right ul li a:hover {
-    color: #d4c5f9; /* Hover color (lighter shade of navbar background) */
+    color: #d4c5f9; /* Hover color */
 }
