@@ -13,30 +13,44 @@ body, ul {
     padding: 0;
 }
 
-/* Styling for the <nav> and <ul> */
+/* General Nav Bar Styling */
 nav {
-    background-color: #333; /* Placeholder color for nav background */
-    padding: 10px 20px;
+    background-color: #8f879c; /* Navbar background color */
+    color: #becec8; /* Default font color */
+    padding: 1rem; /* Space inside the navbar */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between left and right sections */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-nav ul {
-    display: flex; /* Horizontal layout */
-    justify-content: space-around; /* Space out the menu items */
-    list-style-type: none; /* Remove bullet points */
+/* Left Section: Page Title */
+.nav-left h1 {
+    margin: 0; /* Removes extra margin around the title */
+    font-size: 1.5rem; /* Adjust title size */
+    color: #becec8; /* Font color for the title */
 }
 
-/* Styling for links */
-nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Placeholder color for text */
-    font-size: 16px;
-    padding: 8px 12px;
-    border-radius: 5px; /* Add rounded corners */
+/* Right Section: Menu Items */
+.nav-right ul {
+    list-style: none; /* Removes bullets */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex; /* Inline horizontal layout for list items */
+    gap: 1rem; /* Spacing between links */
 }
 
-/* Hover effect */
-nav ul li a:hover {
-    background-color: #555; /* Placeholder hover background color */
-    color: #fff; /* Placeholder hover text color */
-    transition: background-color 0.3s ease;
+.nav-right ul li {
+    margin: 0; /* Reset any default margins */
+}
+
+.nav-right ul li a {
+    text-decoration: none; /* Removes underline */
+    color: #becec8; /* Link color */
+    font-weight: bold; /* Makes the text stand out */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-right ul li a:hover {
+    color: #d4c5f9; /* Hover color (lighter shade of navbar background) */
 }
