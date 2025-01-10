@@ -84,18 +84,6 @@ body {
     min-height: calc(100vh - 100px); /* Full viewport height minus navbar height */
 }
 
-/* Semi-transparent overlay for main content */
-.main-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.6); /* adjust transparency */
-    z-index: 0; /* place behind content */
-}
-
 /* Main content inside */
 .main-content .content {
     position: relative;
