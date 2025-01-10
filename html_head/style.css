@@ -80,7 +80,7 @@ body {
     position: relative;
     background: url('path-to-your-background.jpg') no-repeat center center fixed;
     background-size: cover; /* image covers the content area */
-    min-height: calc(100vh - 100px); /* Full viewport height minus navbar height */
+    min-height: 100vh; 
 }
 
 /* Main content inside */
