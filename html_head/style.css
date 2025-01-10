@@ -4,7 +4,6 @@ nav {
     background-size: cover; /* Makes sure the image covers the navbar */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the background image */
-    height: 100px; /* Adjust height as needed */
     display: flex; /* Makes it easier to position items */
     align-items: center; /* Centers items vertically */
     justify-content: space-between; /* Positions left and right sections */
