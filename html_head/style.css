@@ -137,3 +137,9 @@ body {
     border: 3px solid #73a568; 
     margin-top: 20px;
 }
+
+.main-content-box.fourth-box {
+    background-color: rgba(115, 165, 104, 0.7); /* Green with .7 transparency */
+    border: 3px solid #1c859b; /* Blue border */
+    margin-top: 20px;
+}
