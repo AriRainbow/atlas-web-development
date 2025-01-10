@@ -122,3 +122,9 @@ body {
     font-size: 1rem;
     line-height: 1.5;
 }
+
+/* Second Content Section (different color scheme) */
+.main-content-box.second-box {
+    background-color: #FFa500;
+    border: 3px solid #fed052; 
+}
