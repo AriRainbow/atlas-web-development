@@ -7,7 +7,6 @@ nav {
     display: flex; /* Makes it easier to position items */
     align-items: center; /* Centers items vertically */
     justify-content: space-between; /* Positions left and right sections */
-    padding: 20px 1rem 0px 1rem; /* Adds spacing on the left and right */
     box-sizing: border-box;
 }
 
