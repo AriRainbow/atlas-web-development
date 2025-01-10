@@ -77,7 +77,6 @@ body {
 .main-content {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
     background: url('path-to-your-background.jpg') no-repeat center center fixed;
     background-size: cover; /* image covers the content area */
