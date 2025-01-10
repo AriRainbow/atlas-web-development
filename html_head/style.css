@@ -75,10 +75,13 @@ body {
 
 /* Main content wrapper */
 .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     background: url('path-to-your-background.jpg') no-repeat center center fixed;
     background-size: cover; /* image covers the content area */
-    min-height: 100vh; /* content area is at least the height of the viewport */
+    min-height: calc(100vh - 100px); /* Full viewport height minus navbar height */
 }
 
 /* Semi-transparent overlay for main content */
@@ -106,7 +109,6 @@ body {
 
 /* Main content section box */
 .main-content-box {
-    position: relative;
     background-color: rgba(203, 58, 72, 0.7); /* Semi-transparent reddish background */
     padding: 20px; /* Adds spacing inside the box */
     width: 80%; /* Adjust the width as needed */
@@ -115,7 +117,7 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
     border: 3px solid #FFa500;
     margin-top: 20px;
-    justify-content: center;
+    text-align: center;
 }
 
 /* Optional: Additional styling for content inside */
