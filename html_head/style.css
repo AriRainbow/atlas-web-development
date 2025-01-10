@@ -78,9 +78,10 @@ body {
 
 /* Main content wrapper */
 .main-content {
-    display: block;  /* default block ensures vertical stacking */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack the sections vertically */
+    align-items: center; /* Center content horizontally */
     justify-content: flex-start;  /* Align items at the top */
-    position: relative;
     background: url('path-to-your-background.jpg') no-repeat center center fixed;
     background-size: cover; /* image covers the content area */
     min-height: 100vh; 
