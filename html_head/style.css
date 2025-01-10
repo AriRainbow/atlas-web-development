@@ -72,7 +72,7 @@ body {
     background-size: cover; /* image covers the entire screen */
     background-repeat: no-repeat; /* Prevents tiling */
     background-position: center; /* Centers the image */
-    background-attachment: scroll;  /* background scrolls. no fixed element */
+    background-attachment: fixed;  /* fix background scroll content */
     min-height: 100vh; /* body is at least the height of the viewport */
     margin: 0; /* Removes any default margins */
 }
