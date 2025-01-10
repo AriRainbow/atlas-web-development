@@ -144,3 +144,9 @@ body {
     border: 3px solid #1c859b; /* Blue border */
     margin-top: 20px;
 }
+
+.main-content-box.section-5 {
+    background-color: rgba(28, 133, 155, 0.7); /* Semi-transparent #1c859b */
+    border: 3px solid #74688e; 
+    margin-top: 20px;
+}
