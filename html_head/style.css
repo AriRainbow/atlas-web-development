@@ -110,7 +110,8 @@ body {
     border-radius: 10px; /* Rounded corners */
     color: #fff; /* White text for readability */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
-    border: 3px solid #FFa500; 
+    border: 3px solid #FFa500;
+    margin-top: 20px;
 }
 
 /* Optional: Additional styling for content inside */
