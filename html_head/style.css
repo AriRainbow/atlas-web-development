@@ -8,7 +8,7 @@ nav {
     display: flex; /* Makes it easier to position items */
     align-items: center; /* Centers items vertically */
     justify-content: space-between; /* Positions left and right sections */
-    padding: 0 1rem; /* Adds spacing on the left and right */
+    padding: 20px 1rem; /* Adds spacing on the left and right */
 }
 
 /* Ensure the nav-container uses Flexbox */
