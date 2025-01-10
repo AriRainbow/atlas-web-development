@@ -17,6 +17,7 @@ nav {
     justify-content: space-between; /* Spaces items (title and menu) evenly */
     width: 100%; /* Ensures it spans the full width */
     border-bottom: #cb3a48 solid 3px;
+    padding: 20px 20px;
 }
 
 /* Left Section: Title */
