@@ -34,6 +34,7 @@ nav {
     display: inline-block; /* Shrinks the block to fit the content */
     font-size: 1.5rem; 
     font-weight: bold; /* Make text bold */
+    border: #cb3a48 solid 3px;
 }
 
 /* Right Section: Menu Items */
@@ -50,6 +51,7 @@ nav {
     border-radius: 5px; /* Rounded corners */
     margin: 0 0.5rem; /* Space between menu items */
     padding: 1rem 2rem; /* Matches the left section height */
+    border: #cb3a48 solid 3px;
 }
 
 .nav-right ul li a {
