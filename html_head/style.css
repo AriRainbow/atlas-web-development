@@ -166,4 +166,9 @@ footer {
     padding: 20px; 
     text-align: center; 
     color: #fff; 
+    min-height: 150px; /* Ensures the footer has a decent height */
+    display: flex; /* Enables Flexbox for layout control */
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
 }
