@@ -131,32 +131,32 @@ body {
 
 /* Second Content Section (different color scheme) */
 .main-content-box.second-box {
-    background-color: rgba(255, 165, 0, 0.7); 
+    background-color: rgba(255, 165, 0, 0.8); 
     border: 3px solid #fed052;
     margin-top: 20px;
 }
 
 /* Section 3 - Custom Colors */
 .main-content-box.third-box {
-    background-color: rgba(254, 208, 82, 0.7); 
+    background-color: rgba(254, 208, 82, 0.8); 
     border: 3px solid #73a568; 
     margin-top: 20px;
 }
 
 .main-content-box.fourth-box {
-    background-color: rgba(115, 165, 104, 0.7); 
-    border: 3px solid #1c859b; /* Blue border */
+    background-color: rgba(115, 165, 104, 0.8); 
+    border: 3px solid #1c859b; 
     margin-top: 20px;
 }
 
 .main-content-box.section-5 {
-    background-color: rgba(28, 133, 155, 0.7); /* Semi-transparent #1c859b */
+    background-color: rgba(28, 133, 155, 0.8); /* Semi-transparent #1c859b */
     border: 3px solid #74688e; 
     margin-top: 20px;
 }
 
 .main-content-box.section-6 {
-    background-color: rgba(116, 104, 142, 0.7); /* Semi-transparent #74688e */
+    background-color: rgba(116, 104, 142, 0.8); /* Semi-transparent #74688e */
     border: 3px solid #cb3a48; 
     margin-top: 20px;
     margin-bottom: 20px;
