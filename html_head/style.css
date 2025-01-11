@@ -118,6 +118,7 @@ body {
 
 /* Optional: Additional styling for content inside */
 .main-content-box h2 {
+    font-family: 'Emilys Candy', cursive; 
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 10px;
