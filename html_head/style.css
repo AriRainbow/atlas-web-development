@@ -127,20 +127,20 @@ body {
 
 /* Second Content Section (different color scheme) */
 .main-content-box.second-box {
-    background-color: rgba(255, 165, 0, 0.7); /* Orange with 0.7 transparency */
+    background-color: rgba(255, 165, 0, 0.7); 
     border: 3px solid #fed052;
     margin-top: 20px;
 }
 
 /* Section 3 - Custom Colors */
 .main-content-box.third-box {
-    background-color: rgba(254, 208, 82, 0.7); /* Yellow with .7 transparency */
+    background-color: rgba(254, 208, 82, 0.7); 
     border: 3px solid #73a568; 
     margin-top: 20px;
 }
 
 .main-content-box.fourth-box {
-    background-color: rgba(115, 165, 104, 0.7); /* Green with .7 transparency */
+    background-color: rgba(115, 165, 104, 0.7); 
     border: 3px solid #1c859b; /* Blue border */
     margin-top: 20px;
 }
@@ -156,4 +156,14 @@ body {
     border: 3px solid #cb3a48; 
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer {
+    background-image: url('images/Nav_BG.png'); 
+    background-size: cover; 
+    background-position: center; 
+    border-top: 3px solid #cb3a48; 
+    padding: 20px; 
+    text-align: center; 
+    color: #fff; 
 }
