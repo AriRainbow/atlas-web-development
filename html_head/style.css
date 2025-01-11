@@ -181,6 +181,7 @@ footer {
     flex-direction: column; /* Stacks icons and copyright vertically */
     align-items: center; /* Centers items horizontally */
     gap: 10px; /* Adds space between icons and copyright */
+    padding-top: 30px;
 }
 
 /* Footer Icons (LinkedIn and GitHub links) */
