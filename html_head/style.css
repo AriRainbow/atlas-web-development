@@ -27,14 +27,12 @@ nav {
 
 /* Left Section: Page Title */
 .nav-left h1 {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
-    color: #505569;
-    padding: 1rem 2rem; /* Doubles the height with additional padding */
-    border-radius: 5px; /* rounded edges */
-    display: inline-block; /* Shrinks the block to fit the content */
-    font-size: 1.5rem; 
-    font-weight: bold; /* Make text bold */
-    border: #cb3a48 solid 3px;
+    font-family: 'Emilys Candy', cursive; 
+    color: #fff; 
+    font-size: 3rem; 
+    font-weight: normal; 
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove padding so it doesn’t have extra space */
 }
 
 /* Right Section: Menu Items */
