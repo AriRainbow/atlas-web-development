@@ -44,21 +44,26 @@ nav {
     gap: 1rem; /* Spacing between links */
 }
 
+/* Right Section: Menu Items */
 .nav-right ul li {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
-    border-radius: 5px; /* Rounded corners */
-    margin: 0 0.5rem; /* Space between menu items */
-    padding: 1rem 2rem; /* Matches the left section height */
-    border: #cb3a48 solid 3px;
+    background-color: transparent; 
+    border-radius: 0; 
+    margin: 0 0.5rem; /* Keep the space between menu items */
+    padding: 0; 
+    font-family: 'Emilys Candy', cursive; 
+    font-size: 1.5rem; 
+    color: #fff; 
 }
 
+/* Right Section: Menu Items - Links */
 .nav-right ul li a {
-    display: block; /* Makes the link fill the color block */
-    text-decoration: none; /* Removes underline */
-    color: #505569;
-    font-size: 1rem; 
-    font-weight: bold; /* Bold font */
-    text-align: center; /* Centers text inside the block */
+    display: block; /* Makes the link fill the area */
+    text-decoration: none; /* Remove underline */
+    color: #fff; 
+    font-size: 1.5rem; /* Set the same font size for links */
+    font-family: 'Emilys Candy', cursive; 
+    text-align: center; /* Center the text */
+    padding: 0.5rem 1rem; /* Add some padding for clickable area */
 }
 
 .nav-right ul li a:hover {
