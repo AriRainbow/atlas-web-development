@@ -158,32 +158,53 @@ body {
     margin-bottom: 20px;
 }
 
+/* Footer Styling */
 footer {
-    background-image: url('images/Nav_BG.png'); 
-    background-size: cover; 
-    background-position: center; 
-    border-top: 3px solid #cb3a48; 
-    padding: 20px; 
-    text-align: center; 
-    color: #fff; 
-    min-height: 150px; /* Ensures the footer has a decent height */
+    background-image: url('images/Nav_BG.png'); /* Matches header background */
+    background-size: cover; /* Ensures the image covers the footer */
+    background-position: center; /* Centers the background image */
+    border-top: 3px solid #cb3a48; /* Border color matching header */
+    padding: 20px; /* Adjust padding to space content */
+    text-align: center; /* Centers text content */
+    color: #fff; /* Ensures text is white for readability */
+    min-height: 150px; /* Ensures footer has a decent height */
     display: flex; /* Enables Flexbox for layout control */
     flex-direction: column; /* Stacks content vertically */
-    justify-content: space-between; /* Distributes top to bottom */
+    justify-content: space-between; /* Distributes top and bottom content */
     align-items: center; /* Horizontally centers the content */
-    position: relative;
+    position: relative; /* Allows positioning of child elements */
 }
 
-/* Footer content styling */
+/* Footer Content Container */
 .footer-content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stacks icons and copyright vertically */
+    align-items: center; /* Centers items horizontally */
+    gap: 10px; /* Adds space between icons and copyright */
 }
 
-/* Footer copyright styling */
+/* Footer Icons (LinkedIn and GitHub links) */
+.icon-links {
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+    gap: 15px; /* Adds space between icons */
+}
+
+/* Footer Icons */
+.footer-icon {
+    width: 48px; /* Icon size */
+    height: 48px; /* Ensures icons are square */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+/* Hover Effect for Icons */
+.footer-icon:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+/* Footer Copyright Text */
 .footer-copyright {
-    font-size: 0.9rem; 
-    color: #fff;
-    margin-top: 10px;
+    font-size: 0.9rem; /* Slightly smaller text for copyright */
+    color: #fff; /* Ensures copyright text is white */
+    margin-top: 10px; /* Adds space above copyright */
 }
