@@ -214,22 +214,39 @@ footer {
 .footer-icon {
     width: 48px; /* Icon size */
     height: 48px; /* Ensures icons are square */
-    transition: transform 0.2s; /* Animation for hover effect */
+    transition: transform 0.2s; /* animation for hover effect */
 }
 
 /* Hover Effect for Icons */
 .footer-icon:hover {
-    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+    transform: scale(1.1); /* slightly enlarges the icon on hover */
 }
 
 /* Footer Copyright Text */
 .footer-copyright {
-    font-size: 0.9rem; /* Slightly smaller text for copyright */
-    color: #fff; /* Ensures copyright text is white */
-    margin-top: 10px; /* Adds space above copyright */
+    font-size: 0.9rem;
+    color: #fff; 
+    margin-top: 10px; /* space above copyright */
 }
 /* END FOOTER */
 
 /* BACK TO TOP BUTTON */
+.back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    width: 60px; 
+    height: 60px;
+    z-index: 1000; 
+}
 
+.back-to-top img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease; /* hover effect */
+}
+
+.back-to-top:hover img {
+    transform: scale(1.1); /* slight zoom on hover */
+}
 /* END BACK TO TOP BUTTON */
