@@ -231,53 +231,5 @@ footer {
 /* END FOOTER */
 
 /* BACK TO TOP BUTTON */
-/* General styling */
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 40px;
-    background-color: #fff;
-    color: #4d4b4b;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid #cb3a48;
-    border-radius: 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-    z-index: 1000;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
-}
 
-/* Cloud puff styling */
-.back-to-top::before,
-.back-to-top::after {
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #cb3a48;
-}
-
-.back-to-top::before {
-    top: -20px;
-    left: 5px;
-}
-
-.back-to-top::after {
-    top: -15px;
-    right: 5px;
-}
-
-/* Hover effect */
-.back-to-top:hover {
-    background-color: #cb3a48;
-    color: #fff;
-    transform: scale(1.1);
-}
 /* END BACK TO TOP BUTTON */
