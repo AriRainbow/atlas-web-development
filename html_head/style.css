@@ -1,3 +1,4 @@
+/* HEADER */
 /* General Nav Bar Styling */
 nav {
     background-image: url('images/Nav_BG.png'); 
@@ -69,7 +70,9 @@ nav {
 .nav-right ul li a:hover {
     color: #d4c5f9; /* Hover color */
 }
+/* END HEADER */
 
+/* BODY MAIN */
 body {
     background-image: url('');
     background-color: #4d4b4b; /* Fallback color */
@@ -149,19 +152,21 @@ body {
     margin-top: 20px;
 }
 
-.main-content-box.section-5 {
+.main-content-box.fifth-box {
     background-color: rgba(28, 133, 155, 0.8); /* Semi-transparent #1c859b */
     border: 3px solid #74688e; 
     margin-top: 20px;
 }
 
-.main-content-box.section-6 {
+.main-content-box.sixth-box {
     background-color: rgba(116, 104, 142, 0.8); /* Semi-transparent #74688e */
     border: 3px solid #cb3a48; 
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* END BODY MAIN */
 
+/* FOOTER */
 /* Footer Styling */
 footer {
     background-image: url('images/Nav_BG.png'); /* Matches header background */
@@ -213,3 +218,4 @@ footer {
     color: #fff; /* Ensures copyright text is white */
     margin-top: 10px; /* Adds space above copyright */
 }
+/* END FOOTER */
