@@ -160,9 +160,19 @@ body {
 
 .main-content-box.sixth-box {
     background-color: rgba(116, 104, 142, 0.8); /* Semi-transparent #74688e */
-    border: 3px solid #cb3a48; 
+    border: 3px solid ; 
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* Works in Progress section link styling */
+.sixth-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.sixth-box a:hover {
+    color: #cb3a48;
 }
 /* END BODY MAIN */
 
