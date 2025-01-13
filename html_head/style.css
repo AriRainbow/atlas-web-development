@@ -250,3 +250,15 @@ footer {
     transform: scale(1.1); /* slight zoom on hover */
 }
 /* END BACK TO TOP BUTTON */
+
+/* MEDIA GALLERY MEDIA GALLERY */
+/* Biz Tongue */
+.video container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.video-container video {
+    max-width: 100%; /* responsive */
+    height: auto; 
+}
