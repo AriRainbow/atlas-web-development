@@ -235,15 +235,15 @@ footer {
     position: fixed;
     bottom: 20px; 
     right: 20px; 
-    width: 60px; 
-    height: 60px;
+    width: 80px; 
+    height: 80px;
     z-index: 1000; 
 }
 
 .back-to-top img {
     width: 100%; 
     height: auto; 
-    transition: transform 0.3s ease; /* hover effect */
+    transition: transform 0.3s ease; /* hoover */
 }
 
 .back-to-top:hover img {
