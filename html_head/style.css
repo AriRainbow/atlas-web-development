@@ -181,9 +181,9 @@ body {
 footer {
     background-image: url('images/Nav_BG.png'); /* Matches header background */
     background-size: cover; 
-    background-position: center; /* Centers background image */
+    background-position: center; 
     border-top: 3px solid #cb3a48; /* Border color matching header */
-    padding: 20px; /* Adjust padding to space content */
+    padding: 20px; 
     text-align: center; 
     color: #fff; 
     min-height: 150px; 
@@ -261,5 +261,11 @@ footer {
 
 .video-container video {
     max-width: 100%; /* responsive */
+    height: auto; 
+}
+
+/* Pet Collage */
+.media-page img {
+    width: 100%;
     height: auto; 
 }
