@@ -222,6 +222,15 @@ footer {
     transform: scale(1.1); /* slightly enlarges the icon on hover */
 }
 
+/* Footer Cow */
+.footer-decoration {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: auto;
+}
+
 /* Footer Copyright Text */
 .footer-copyright {
     font-size: 0.9rem;
