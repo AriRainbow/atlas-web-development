@@ -225,7 +225,7 @@ footer {
 /* Footer Cow */
 .footer-decoration {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 20px;
     width: 75px;
     height: auto;
