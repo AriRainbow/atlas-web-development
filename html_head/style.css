@@ -283,7 +283,7 @@ footer {
 .overlay-character {
     position: absolute;
     top: -50px;  /* adjust to appear to be hanging */
-    right: 150px;  /* adjust to move more right if needed */
+    right: 0;  /* adjust to move more right if needed */
     z-index: 10;  /* ensures it is above the video */
     width: 800px;  /* size of character */
     height: auto;
