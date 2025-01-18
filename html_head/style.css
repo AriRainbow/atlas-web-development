@@ -264,9 +264,14 @@ footer {
 /* MEDIA GALLERY MEDIA GALLERY */
 /* Biz Tongue and Grandpa Vid */
 .video container {
-    position: relative;  /* makes it the positioning context */
+    display: flex;  /* allow horizontal alignment */
+    align-items: center;  /* center vertically */
+    justify-content: flex-start;
     margin-top: 20px;
-    text-align: center;
+}
+
+.media-wrapper {
+    position: relative;  /* neccessary for overlay positioning */
 }
 
 .video-container video {
@@ -275,10 +280,10 @@ footer {
 }
 
 /* Gpa Vid Overlay */
-.video-contaier .overlay-character {
+.overlay-character {
     position: absolute;
     top: -5px;  /* adjust to appear to be hanging */
-    left: 80%;  /* adjust to move more right if needed */
+    right: 50px;  /* adjust to move more right if needed */
     z-index: 10;  /* ensures it is above the video */
     width: 100px;  /* size of character */
     height: auto;
