@@ -109,17 +109,17 @@ body {
 /* Main content section box */
 .main-content-box {
     background-color: rgba(203, 58, 72, 0.8); /* Semi-transparent reddish background */
-    padding: 20px; /* Adds spacing inside the box */
+    padding: 20px; 
     width: 80%; /* Adjust the width as needed */
     border-radius: 10px; /* Rounded corners */
-    color: #fff; /* White text for readability */
+    color: #fff; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
     border: 3px solid #FFa500;
     margin-top: 20px;
     text-align: center;
 }
 
-/* Optional: Additional styling for content inside */
+/* Additional styling for content inside */
 .main-content-box h2 {
     font-family: 'Emilys Candy', cursive; 
     font-size: 2.5rem;
@@ -187,7 +187,7 @@ footer {
     text-align: center; 
     color: #fff; 
     min-height: 150px; 
-    display: flex; /* Flexbox for layout control */
+    display: flex; 
     flex-direction: column; /* Stacks content vertically */
     justify-content: space-between; /* Distributes top and bottom content */
     align-items: center; /* Horizontally centers the content */
@@ -262,8 +262,9 @@ footer {
 /* END BACK TO TOP BUTTON */
 
 /* MEDIA GALLERY MEDIA GALLERY */
-/* Biz Tongue */
+/* Biz Tongue and Grandpa Vid */
 .video container {
+    position: relative;  /* makes it the positioning context */
     margin-top: 20px;
     text-align: center;
 }
@@ -271,6 +272,16 @@ footer {
 .video-container video {
     max-width: 100%; /* responsive */
     height: auto; 
+}
+
+/* Gpa Vid Overlay */
+.video-contaier .overlay-character {
+    position: absolute;
+    top: -5px;  /* adjust to appear to be hanging */
+    left: 80%;  /* adjust to move more right if needed */
+    z-index: 10;  /* ensures it is above the video */
+    width: 100px;  /* size of character */
+    height: auto;
 }
 
 /* Pet Collage */
