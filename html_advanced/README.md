@@ -5,7 +5,7 @@ This project focuses on creating a webpage from a designer file, implementing a 
 ## Project Goals
 
 - Create a semantic HTML structure that aligns with the provided design.
-- Ensure all HTML elementsare used appropriately and meaningfully.
+- Ensure all HTML elements are used appropriately and meaningfully.
 - Exclude any CSS or styling to focus purely on structure.
 
 ## How to View the Design
