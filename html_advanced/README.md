@@ -10,7 +10,7 @@ This project focuses on creating a webpage from a designer file, implementing a 
 
 ## How to View the Design
 
-1. Access the designer file on Figma.
+1. Access the designer file on Figma: [Figma Designer File](https://www.figma.com/design/XrEAsu1vQj5fhVaNG38d2W/Homepage?node-id=0-1&p=f&t=shEYjXbymtOIKzZ2-0).
 2. Duplicate the file to your drafts to explore all design specifications.
 
 ## Future Enhancements
