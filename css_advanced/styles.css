@@ -3,4 +3,25 @@
     height: 29.46px;
     top: 35.02px;
     left: 171.59px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header .menu {
+    width: 234px;
+    height: 15px;
+    top: 37px;
+    left: 1041px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header .logo {
+    width: 167.02px;
+    height: 29.46px;
+    top: 35.02px;
+    left: 171.59px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
 }
