@@ -3,8 +3,10 @@
     height: 29.46px;
     top: 35.02px;
     left: 171.59px;
-    gap: 0px;
-    opacity: 0px;
+    background-image: url("images/pic_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header .menu {
