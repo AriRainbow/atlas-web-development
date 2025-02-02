@@ -1,29 +1,29 @@
-.header {
-    width: 1103.41px;
-    height: 29.46px;
-    top: 35.02px;
-    left: 171.59px;
+.background-wrap {
     background-image: url("images/pic_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100vw;
+    height: 1093px;
 }
 
-.header .menu {
+header {
+    width: 1103.41px;
+    top: 35.02px;
+    left: 171.59px;
+}
+
+ul .menu {
     width: 234px;
     height: 15px;
     top: 37px;
     left: 1041px;
-    gap: 0px;
-    opacity: 0px;
 }
 
-.header .logo {
+header .logo {
     width: 167.02px;
     height: 29.46px;
     top: 35.02px;
     left: 171.59px;
-    gap: 0px;
-    opacity: 0px;
     background: #FFFFFF;
 }
