@@ -4,21 +4,24 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
-    height: 1093px;
+    min-height: 100vh;
 }
 
 header {
-    width: 1103.41px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
     top: 35.02px;
     left: 171.59px;
+    margin: 0 auto;
 }
 
-ul .menu {
+.menu {
     list-style: none;
     display: flex;  /* Makes list side by side */
     justify-content: flex-end;  /* Moves list to the right */
-    width: 234px;
-    height: 15px;
+    width: 100%;
     position: relative;
     top: 37px;
     left: 1041px;
@@ -29,7 +32,7 @@ ul .menu li {
 }
 
 ul .menu a {
-    text-decoration: none  /* Remove underline */
+    text-decoration: none;  /* Remove underline */
     color: white;  /* font */
     font-family: 'Source Sans Pro', sans-serif;
     font-size: /* Figure it out */
