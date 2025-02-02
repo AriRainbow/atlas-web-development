@@ -23,8 +23,6 @@ header {
     justify-content: flex-end;  /* Moves list to the right */
     width: 100%;
     position: relative;
-    top: 37px;
-    left: 1041px;
 }
 
 ul .menu li {
