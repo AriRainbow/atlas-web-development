@@ -14,10 +14,25 @@ header {
 }
 
 ul .menu {
+    list-style: none;
+    display: flex;  /* Makes list side by side */
+    justify-content: flex-end;  /* Moves list to the right */
     width: 234px;
     height: 15px;
+    position: relative;
     top: 37px;
     left: 1041px;
+}
+
+ul .menu li {
+    margin-right: 15px;  /* Space between list */
+}
+
+ul .menu a {
+    text-decoration: none  /* Remove underline */
+    color: white;  /* font */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: /* Figure it out */
 }
 
 header .logo {
