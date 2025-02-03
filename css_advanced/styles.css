@@ -52,6 +52,13 @@ header {
     object-fit: contain;  /* Keeps image proportionate ? */
 }
 
+.get_schooled {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+
 .profiles-section {
     display: flex;
     justify-content: space-around;
