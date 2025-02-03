@@ -9,37 +9,44 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    position: relative;
     padding: 20px;
     width: 100%;
-    top: 35.02px;
-    left: 171.59px;
-    margin: 0 auto;
+    position: sticky;  /* Keep navbar at top */
+    top: 0;
+    box-sizing: border-box;  /* Keeps padding inside header width */
 }
 
 .menu {
     list-style: none;
     display: flex;  /* Makes list side by side */
-    justify-content: flex-end;  /* Moves list to the right */
-    width: 100%;
-    position: relative;
+    gap: 20px;  /* Try this for spacing between items */
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 20px;  /* push menu to the right */
 }
 
-ul .menu li {
-    margin-right: 15px;  /* Space between list */
+.menu li {
+    display: inline;
 }
 
-ul .menu a {
+.menu a {
     text-decoration: none;  /* Remove underline */
     color: white;  /* font */
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: /* Figure it out */
+    font-size: 18px;  /* Adjust */
 }
 
-header .logo {
+.logo {
     width: 167.02px;
     height: 29.46px;
     top: 35.02px;
     left: 171.59px;
-    background: #FFFFFF;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  /* Keeps image proportionate ? */
 }
