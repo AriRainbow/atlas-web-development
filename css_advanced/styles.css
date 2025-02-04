@@ -22,11 +22,11 @@ header {
 .menu {
     list-style: none;
     display: flex;  /* Makes list side by side */
-    gap: 40px;  /* Try this for spacing between items */
+    gap: 50px;  /* Try this for spacing between items */
     padding: 0;
     margin: 0;
     position: absolute;
-    right: 20px;  /* push menu to the right */
+    right: 75px;  /* push menu to the right */
 }
 
 .menu li {
@@ -55,13 +55,43 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     color: white;
+    margin-top: 90px;
 }
 
 .get_schooled h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 120px;
+}
+
+.words_3 {
+    display: flex;
+    justify-content: center;  /* horizontal */
+    gap: 70px;
+    margin-top: -115px;
+}
+
+.words_3 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    background-color: #C271FF;
+    border: none;
+    color: white;
+    border-radius: 22px;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin: 30px auto 0;
+    text-align: center;
 }
 
 .profiles-section {
