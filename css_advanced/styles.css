@@ -147,10 +147,12 @@ button {
 .purple {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #C271FF;
     height: 392px;
     padding: 20px;
     gap: 20px;  /* Space between image and text */
+    margin-top: -25px;
 }
 
 .purple img {
