@@ -145,13 +145,23 @@ button {
 }
 
 .purple {
+    display: flex;
+    align-items: center;
     background-color: #C271FF;
     height: 392px;
-    margin-top: 0;
+    padding: 20px;
+    gap: 20px;  /* Space between image and text */
 }
 
 .purple img {
     border-radius: 50%;
     height: 160px;
     width: 160px;
+}
+
+.purple .block {
+    color: white !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    max-width: 60%;
 }
