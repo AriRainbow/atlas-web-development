@@ -285,7 +285,7 @@ button {
 .membership h2 {
     font-weight: bold;
     font-size: 18px;
-    
+    margin-top: 0;
 }
 
 .membership div {
@@ -312,4 +312,14 @@ button {
 .member {
     width: 257px;
     height: 153px;
+}
+
+.member p {
+    width: 212px;
+    height: 52px;
+    margin-top: -10px;
+}
+
+.membership button {
+    margin-top: 60px;
 }
