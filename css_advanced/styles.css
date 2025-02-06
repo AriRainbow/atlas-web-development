@@ -328,6 +328,11 @@ button {
     text-align: center;
 }
 
+.FAQ h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
 .FAQ-block {
     display: flex;
     flex-direction: column;
