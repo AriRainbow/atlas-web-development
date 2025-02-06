@@ -357,3 +357,14 @@ button {
 footer {
     background-color: #071629;
 }
+
+/* Align social media icons to the right */
+.footer-social-icons {
+    text-align: right;
+}
+
+/* Center the copyright text */
+.footer-copyright {
+    text-align: center;
+    color: white;
+}
