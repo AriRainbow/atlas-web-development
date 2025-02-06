@@ -323,3 +323,28 @@ button {
 .membership button {
     margin-top: 60px;
 }
+
+.FAQ {
+    text-align: center;
+}
+
+.FAQ-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FAQ-block p {
+    font-size: 14px;
+    width: 350px;
+    height: 192px;
+}
+
+.row-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-block {
+    width: 48%;
+}
