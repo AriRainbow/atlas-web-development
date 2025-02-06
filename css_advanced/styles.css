@@ -335,7 +335,8 @@ button {
 
 .FAQ-block {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -347,11 +348,28 @@ button {
 
 .row-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
 }
 
 .item-block {
-    width: 48%;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    min-height: 220px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.item-block * {
+    margin: 0; 
+    padding: 0;
+}
+
+.item-block p, .item-block h3, .item-block span {
+    text-align: left; 
 }
 
 footer {
